@@ -1,0 +1,1 @@
+insert into person (first_name, last_name, email, age, created_date, modified_date) values ('MICHAEL', 'SCOTT', 'MICHAEL.SCOTT@DM.COM', 45, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP());

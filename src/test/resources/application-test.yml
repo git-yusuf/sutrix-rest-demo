@@ -1,0 +1,24 @@
+server:
+    port: 10001
+    servlet:
+        context-path: /sutrix
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:yusuf_db
+    username: sa
+    password: 
+    driverClassName: org.h2.Driver
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect        
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: false
+        format_sql: true
+  h2:
+    console:
+        enabled: true
